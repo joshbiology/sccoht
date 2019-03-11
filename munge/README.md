@@ -1,0 +1,1 @@
+Preprocessing or data munging code for SCCOHT. The preprocessing scripts stored in `munge` are executed sequentially when you call `load.project(munging=T)`.

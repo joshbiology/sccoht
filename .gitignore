@@ -10,12 +10,14 @@
 
 # Output files from R CMD build
 /*.tar.gz
+/*.zip
 
 # Output files from R CMD check
 /*.Rcheck/
 
 # RStudio files
 .Rproj.user/
+/*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -28,9 +30,20 @@ vignettes/*.pdf
 /*_cache/
 /cache/
 
+#data/output files (made by SetupProject.R)
+/*_data/
+/data/
+
+/*_output/
+/output/
+
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
+
+#Misc
+.DS_Store

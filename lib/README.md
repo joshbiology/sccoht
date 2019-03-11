@@ -1,0 +1,1 @@
+Helper functions run with every load.project() call.

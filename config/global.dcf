@@ -1,0 +1,17 @@
+version: 0.8.2
+data_loading: FALSE
+cache_loading: FALSE
+recursive_loading: FALSE
+munging: FALSE
+logging: FALSE
+load_libraries: TRUE
+libraries: devtools, magrittr, readr, stringr, stats, ChIPpeakAnno, plyr, tibble, tidyr, dplyr, ggplot2, cowplot,
+             gridExtra, scales, purrr, RColorBrewer, taigr, dependr, reshape2, lubridate, taigr, pheatmap
+as_factors: FALSE
+data_tables: TRUE
+attach_internal_libraries: FALSE
+data_loading_header: TRUE
+data_ignore:
+logging_level: INFO
+cache_loaded_data: FALSE
+sticky_variables: NONE
